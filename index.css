@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(./images/bg2.webp);
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.display{
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    background: #000000d0;
+    color: white;
+    position: absolute;    
+    justify-content: center;   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}               
+.inp{
+    border-radius: 1.5rem;
+    border: none;
+    height: 2.7rem;
+    width: 70%;
+    color: white;
+    background: #7c7c7c2b;
+    text-align: center;
+    border: 1px sodid white;
+}
+.inp:hover{
+    border: 1px solid white;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+#condetion{
+    padding-top: 1.5rem;
+}
+.btn{
+    color: white;
+    border-radius: 1.5rem;
+    background: #7c7c7c2b;
+    text-align: center;
+}
+img{
+    height: auto;
+    width: 15%;
+}
+@media screen and (max-width:680px) {
+    #condetion{
+        padding-top: 1rem;
+    }
+}
